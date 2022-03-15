@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sleep Now</title>
+
+
+  <!-- Bootstrap CSS -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+
+  <script src="https://kit.fontawesome.com/7dfc14ad36.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Own Styling -->
+
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="icon" href="images/.ico" type="image/x-icon" />
+
+</head>
+
+<body>
+
+  <section class="container-fluid colored-section" id="title">
+
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#title">Sleep Now</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cta">Download</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Title -->
+
+    <div class="row row-cols-1 row-cols-lg-2 content-row">
+      <div class="col">
+        <h1 class="large-heading">Treat yourself to quality sleep. </h1>
+        <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fa-brands fa-apple"></i> Download</button>
+        <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fa-brands fa-google-play"></i> Download</button>
+      </div>
+      <div class="col">
+        <img id="phone-img" src="images/phone-mockup-c.png" alt="phone-mockup">
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="container-fluid white-section" id="features">
+
+    <div class="row row-cols-1 row-cols-lg-3">
+      <div class="col feature-cell">
+        <i class="fa-solid fa-eye fa-3x feature-icon"></i>
+        <h3 class="feature-title">Easy to use</h3>
+        <p class="feature-description">See you all you need to know at a glance</p>
+      </div>
+      <div class="col feature-cell">
+        <i class="fa-solid fa-user-doctor fa-3x feature-icon"></i>
+        <h3 class="feature-title">Doctor certified?</h3>
+        <p class="feature-description">Our system proudly has no medical certification</p>
+      </div>
+      <div class="col feature-cell">
+        <i class="fa-brands fa-bluetooth fa-3x feature-icon"></i>
+        <h3 class="feature-title">Quick setup</h3>
+        <p class="feature-description">Simply connect to your smartwatch via Bluetooth</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+    <div id="carouselControls" class="carousel slide" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-content">After using Sleep Now for a month, I can confidently say that the quality of my sleep skyrocketed!</h2>
+          <img class="testimonial-img" src="images/profile1.jpg" alt="Sleepy's-profile">
+          <em>- Mark, South Korea</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-content">No other sleeping aid application can compare to the appealing simplicity of Sleep Now.</h2>
+          <img class="testimonial-img" src="images/profile2.jpg" alt="Boomer's-profile">
+          <em>- Emily, Canada</em>
+        </div>
+      </div>
+      <button type="button" class="carousel-control-prev carousel-controls" data-bs-target="#carouselControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button type="button" class="carousel-control-next carousel-controls" data-bs-target="#carouselControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Recognition -->
+
+  <section class="container-fluid colored-section" id="recognition">
+
+    <img class="recognition-img" src="images/vox.png" alt="Vox-logo">
+    <img class="recognition-img" src="images/disney.png" alt="Disney-logo">
+    <img class="recognition-img" src="images/nasa.png" alt="NASA-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="container-fluid white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan for Everyone</h2>
+    <p id="pricing-description">Our services are not only dropzone, but also affordable for all.</p>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+
+      <div class="col pricing-col">
+        <div class="card shadow">
+          <div class="card-header">
+            <h3>Casual</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="plan-price">2 / mo</h2>
+            <p>Monitor daily sleep</p>
+            <p>Get weekly insight</p>
+            <p>Personalized adive once a month</p>
+            <button type="button" class="btn btn-outline-primary btn-lg card-btn casual-plan-card-btn">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col pricing-col">
+        <div class="card shadow">
+          <div class="card-header">
+            <h3>Sleepwalker</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="plan-price">$5 / mo</h2>
+            <p>Monitor deep and shallow sleep</p>
+            <p>Daily insights</p>
+            <p>Personalized adiveevery weak</p>
+            <button type="button" class="btn btn-primary btn-lg card-btn">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-md-12 pricing-col">
+        <div class="card shadow">
+          <div class="card-header">
+            <h3>Sleepaholic</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="plan-price">$12 / mo</h2>
+            <p>View detailed sleep reports every day</p>
+            <p>Sleep-improvment pathways</p>
+            <p>Sleepwalker plan features</p>
+            <button type="button" class="btn btn-primary btn-lg card-btn">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Call To Action -->
+
+  <section class="container-fluid colored-section" id="call-to-action">
+
+    <h3 class="large-heading"> Start Sleeping Sweeter, Tonight...</h3>
+    <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-light btn-lg download-btn"><i class="fa-brands fa-google-play"></i> Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <section class="container-fluid white-section" id="footer">
+    <i class="fa-brands fa-twitter fa-sm footer-icon"></i>
+    <i class="fa-brands fa-facebook fa-sm footer-icon"></i>
+    <i class="fa-brands fa-instagram fa-sm footer-icon"></i>
+    <i class="fa-solid fa-envelope fa-sm footer-icon"></i>
+    <p id="copyright-mark">© Copyright 2022 SleepNow</p>
+  </section>
+
+
+  <!-- Bootsrap Script Bundle -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
