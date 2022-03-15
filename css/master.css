@@ -1,0 +1,301 @@
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+p {
+  font-weight: 300;
+}
+
+
+/* Sections */
+
+#title {
+  padding-top: 4%;
+  text-align: left;
+}
+
+#features {
+  position: relative;
+}
+
+#testimonials {
+  background-color: #958cd9;
+}
+
+#recognition {
+  background-color: #958cd9;
+  padding-top: 0;
+  padding-bottom: 5%;
+}
+
+#pricing {}
+
+#call-to-action {}
+
+#footer {}
+
+
+/* Cross-Section Styling */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #5E8BCC;
+  color: white;
+}
+
+.white-section {
+  background-color: #EEEEEE;
+  color: #373A40;
+}
+
+.large-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Bitter', serif;
+  letter-spacing: 2px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.download-btn {
+  margin: 6% 1.5% 3%;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 7.501%;
+}
+
+.navbar .navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+
+.nav-item {
+  padding: 0 3.52%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 1.3125rem;
+  font-weight: 300;
+}
+
+
+/* Title Structure */
+
+.content-row {
+  padding-bottom: 12%;
+}
+
+/* Title Elements */
+
+#phone-img {
+  position: absolute;
+  right: 16rem;
+  transform: rotate(15deg);
+  width: 25.828%;
+}
+
+
+
+/* Features Structure */
+.feature-cell {
+  padding: 4%;
+}
+
+/* Features Elements */
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-description {
+  color: #686D76;
+  font-size: 0.875rem;
+}
+
+.feature-icon {
+  color: #5E8BCC;
+  margin-bottom: 6.99%;
+}
+
+
+/* Testimonials Structure */
+
+/* N/A */
+
+/* Testimonials Elements */
+
+.testimonial-content {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 1%;
+  width: 4.375rem;
+}
+
+
+/* Recognition Structure */
+
+/* N/A */
+
+/* Regonition Elements  */
+
+.recognition-img {
+  padding: 3.537%;
+  padding-bottom: 0;
+  width: 25%;
+}
+
+
+/* Pricing Structure */
+
+.pricing-col {
+  margin: 3% 0;
+}
+
+/* Pricing Elements */
+
+#pricing-description {
+  color: #686D76;
+  font-size: 0.875rem;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  padding: 3.026%;
+}
+
+.plan-price {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card-btn {
+  background-color: #5E8BCC;
+  border-color: #5E8BCC;
+  border-radius: 25px;
+  width: 60%;
+}
+
+.card-btn:hover {
+  background-color: #3c72c0;
+  border-color: #3c72c0;
+}
+
+.casual-plan-card-btn {
+  background-color: white;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+.casual-plan-card-btn:hover {
+  background-color: #5E8BCC;
+  border-color: #5E8BCC;
+}
+
+
+/* Call to Action Structure */
+
+/* N/A */
+
+/* Call to Action Elements */
+
+/* N/A */
+
+
+/* Footer Structure */
+
+/* N/A */
+
+/* Footer Elements */
+
+#copyright-mark {
+  color: #686D76;
+  font-size: 0.875rem;
+}
+
+.footer-icon {
+  margin: 2.359% 1.179%;
+}
+
+
+/* Custom Break-points */
+
+@media (max-width: 1150px) {
+
+
+  /* Title Structure */
+
+  #title {
+    text-align: center;
+  }
+
+  .content-row {
+    padding-bottom: 0;
+  }
+
+  /* Title Elements */
+
+  #phone-img {
+    margin: 3% auto 0;
+    position: static;
+    transform: none;
+    width: 20rem;
+  }
+
+
+  /* Recognition Elements */
+  .recognition-img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1150px) and (min-width: 990px) {
+
+
+  /* Title Structure */
+
+  #title {
+    text-align: left;
+  }
+
+  .content-row {
+    padding-bottom: 4%;
+  }
+
+  /* Title Elements */
+
+  #phone-img {
+    position: absolute;
+    left: 28rem;
+    right: 0;
+    top: 8.5rem;
+  }
+
+
+  /* Recognition Elements */
+  .recognition-img {
+    width: 25%;
+  }
+}
+
+/* The End. Phewww... */
