@@ -1,6 +1,7 @@
 # sleepNow
+#### Treat yourself to quality sleep...
 
-This is a website made for educational purposes only, it was created with no intent to advertise any real product.
+This is a website I created educational purposes only, it was created with no intent to advertise any real product.
 
 - iPhone mockup - https://www.canva.com
 - Icons - https://www.canva.com
