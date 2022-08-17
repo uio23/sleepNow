@@ -11,4 +11,6 @@ This is a website made for educational purposes only, it was created with no int
 <br>
 
 - Profile1 - Image by Pexels from Pixabay
-- Profile2 - Image by Anastasia Gepp from Pixabay <br> Please note, the names given to profiles 1 and 2, Mark and Emily, respectively, were made with no intent to match the real names of the persons shown.
+- Profile2 - Image by Anastasia Gepp from Pixabay
+
+Please note, the names given to profiles 1 and 2, Mark and Emily, respectively, were made with no intent to match the real names of the people shown.
